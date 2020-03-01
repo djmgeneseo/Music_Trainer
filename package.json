@@ -1,0 +1,15 @@
+{
+  "name": "music_trainer",
+  "version": "1.0.0",
+  "description": "Initial proof of concept for larger project. Utilizes spot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "github": "https://github.com/djmgeneseo/Music_Trainer.git",
+  "keywords": [
+    "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B"
+  ],
+  "author": "",
+  "license": "ISC"
+}
