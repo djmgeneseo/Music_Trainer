@@ -2,14 +2,20 @@
   "name": "music_trainer",
   "version": "1.0.0",
   "description": "Initial proof of concept for larger project. Utilizes spot",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && npm install && npm run build"
   },
   "github": "https://github.com/djmgeneseo/Music_Trainer.git",
   "keywords": [
     "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[B"
   ],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1"
+  }
 }
