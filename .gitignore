@@ -1,3 +1,4 @@
 #Ignore node dependencies
 node_modules/
 client/node_modules/
+config/
