@@ -6,9 +6,9 @@ const axios = require('axios');
 
 // GET https://api.spotify.com/v1/audio-analysis/{id}
 router.get('/audio-analysis/:SONG_ID', async (req, res) => {
-    axios.get(
-        `https://api.spotify.com/v1/audio-analysis/${req.params.SONG_ID}`
-    ).then(spotifyRes => {
-        spotifyRes.
-    })
+    try {
+        await axios.get(`https://api.spotify.com/v1/audio-analysis/${req.params.SONG_ID}`);
+    } catch(err) {
+        console.error(err)
+    }
 })
